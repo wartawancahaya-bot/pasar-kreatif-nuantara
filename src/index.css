@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-marun-primary: #991b1b;
+    --color-marun-dark: #7f1d1d;
+    --color-emas: #b45309;
+    --color-emas-light: #d97706;
+    --color-nusantara-bg: #faf7f2;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    color: #292524;
+    background-color: #faf7f2;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  .font-display {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+  
+  .font-mono-numbers {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Subtle Nusantara Batik watermark motif */
+.nusantara-motif {
+  background-color: #faf7f2;
+  background-image: radial-gradient(#d97706 0.75px, transparent 0.75px), radial-gradient(#991b1b 0.75px, #faf7f2 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+  background-opacity: 0.03;
+}
+

@@ -1,0 +1,8 @@
+{
+  "name": "Remix Nusantara Pasar - Marketplace \u0026 E-Commerce",
+  "description": "Platform marketplace kurasi produk lokal, kerajinan nusantara, teknologi, dan gaya hidup dengan sistem checkout lengkap, toko penjual, dan lacak pesanan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
